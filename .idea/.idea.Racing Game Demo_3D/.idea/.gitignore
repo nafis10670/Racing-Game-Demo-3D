@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.Racing Game Demo_3D.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../:\Unity Works\Racing Game Demo_3D\.idea\.idea.Racing Game Demo_3D\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
