@@ -8,6 +8,7 @@ public class CountdownController : MonoBehaviour
 {
     public Text countDownText;
     public GameObject car;
+    public GameObject AICar;
     public TimerController timerController;
     
     
@@ -40,6 +41,8 @@ public class CountdownController : MonoBehaviour
         countDownText.gameObject.SetActive(true);
 
         car.GetComponent<CarUserControl>().enabled = true;
+        AICar.GetComponent<CarAIControl>().enabled = true;
+        
         timerController.gameObject.SetActive(true);
         
         yield return new WaitForSeconds(1f);

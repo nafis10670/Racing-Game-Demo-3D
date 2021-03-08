@@ -19,7 +19,7 @@ public class LapController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "ColliderBottom")
+        if (other.name == "ColliderBottom" && other.CompareTag("Player"))
         {
             halfPointTrigger.SetActive(true);
             this.gameObject.SetActive(false);
